@@ -1077,7 +1077,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.3, y: -153.7}
+  m_AnchoredPosition: {x: 0.000012159, y: -204}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &215567109
@@ -1819,8 +1819,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1.5, y: -16.8}
-  m_SizeDelta: {x: -608.6076, y: -235.54288}
+  m_AnchoredPosition: {x: 1.5, y: -24}
+  m_SizeDelta: {x: -608.6076, y: -158.44617}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &588080146
 MonoBehaviour:
@@ -3727,8 +3727,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.3, y: 27.05}
-  m_SizeDelta: {x: 461.75507, y: 306.58234}
+  m_AnchoredPosition: {x: 0.7, y: 19.4}
+  m_SizeDelta: {x: 462.95978, y: 403.43695}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1325295234
 MonoBehaviour:
@@ -3763,16 +3763,20 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Welcome, this is a scale model of our solar system (aproximatley 100000:1
+  m_Text: "Welcome, this is a scale model of our solar system (approximately 100000:1
     ).\n\nThe size of the planets and sun are to scale as are the average distances
     between each other to scale. \n\nAs yet I still need to set the orbital velocities
     and rotational velocities to scale.\n\nYou will also notice that in the outer
-    planets there is some jittering, this is due to flaoting point porecision errors
-    due to the shear sixe of the solar system. Ultimatley this requires a significant
-    rewolk of the project to get it to behave correclty and is something that will
+    planets there is some jittering, this is due to floating point precision errors
+    due to the shear size of the solar system. Ultimately this requires a significant
+    rework of the project to get it to behave correctly and is something that will
     be addressed in future releases.\n\nSwitch between inner and outer solar system
     views by clicking on the top left button, click on planets to view them, and
-    press escape to return to the solar system view.\n\nEnjoy! ChaosPixy."
+    press escape to return to the solar system view.\n\nThe project is far from perfect
+    and requires several modifications to make is architecturally sound, however
+    as one realizes with experience, is that no piece of code is perfect and if I
+    were to chase that goal, I would never have a demonstrable piece of work.\n\nEnjoy!
+    ChaosPixy."
 --- !u!222 &1325295235
 CanvasRenderer:
   m_ObjectHideFlags: 0
