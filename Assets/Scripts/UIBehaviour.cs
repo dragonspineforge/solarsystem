@@ -21,4 +21,9 @@ public class UIBehaviour : MonoBehaviour
             buttonText.text = "Inner Solar System View";
         }
     }
+
+    public void OnWelcomTextClick(GameObject panel)
+    {
+        panel.SetActive(false);
+    }
 }

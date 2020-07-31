@@ -1,11 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ActivateAndPossesChaseCam : MonoBehaviour
 {   
     public Camera chaseCam;
     public Camera overviewCamera;
+    public Text navigationText;
 
     void Update()
     {
@@ -22,6 +24,7 @@ public class ActivateAndPossesChaseCam : MonoBehaviour
 
                     Camera.SetupCurrent(chaseCam);
                     this.GetComponent<SpriteRenderer>().enabled = false;
+                    navigationText.enabled = true;
                 }
 
                 if (hit.transform.gameObject.name == "Saturn" && gameObject.name.Contains("Saturn"))
@@ -113,6 +116,7 @@ public class ActivateAndPossesChaseCam : MonoBehaviour
 
             Camera.SetupCurrent(overviewCamera);
             this.GetComponent<SpriteRenderer>().enabled = true;
+            navigationText.enabled = false;
         }
     }
 
